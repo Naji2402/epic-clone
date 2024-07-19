@@ -1,0 +1,277 @@
+body{
+    background-color:rgb(19, 19, 19) ;
+    margin-bottom: 1000px;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-header{
+    height: 70px;
+    background-color: #18181c;
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.main-header2{
+    height: 70px;
+    background-color:rgb(19, 19, 19);
+    display: flex;
+    padding-top: 30px;
+    padding-left: 230px;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.left-section{
+    width: 95px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.epic-logo{
+    height:40px;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.middle-section{
+    width: 435px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.store-logo{
+    height: 35px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+.mid-sec1{
+    padding-right: 15px;
+    padding-left: 15px;
+    color: gray;
+    border: none;
+    background-color:transparent;
+    height:30px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.mid-sec2{
+    padding-right: 15px;
+    padding-left: 15px;
+    color: gray;
+    border: none;
+    height:30px;
+    border-radius: 7px;
+    background-color: transparent;
+    font-size: 15px;
+}
+.mid-sec1:hover{
+    background-color: rgba(198, 192, 192, 0.236);
+}
+.mid-sec2:hover{
+    background-color: rgba(198, 192, 192, 0.237);
+}
+
+.right-section{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.download-button{
+    background-color: rgb(0, 213, 255);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-right: 20px;
+   
+}
+.search-bar{
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-radius: 12px;
+    background-color:#18181c;
+    color: grey;
+    margin-right: 20px;
+}
+.search-bar::placeholder{
+    padding-left: 20px;
+}
+.s-details{
+    padding-right: 15px;
+    padding-left: 15px;
+    color: gray;
+    border: none;
+    background-color:transparent;
+    height:30px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.s-details:hover{
+    background-color: rgba(198, 192, 192, 0.237);
+}
+.thumbnail-container{
+    position: relative;
+}
+.purchase-button{
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 37px;
+    left: 270px;
+    background-color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+
+}
+.main-thumbnail{
+    width:1205px
+}
+.m-thumbnail{
+    height:550px;
+    margin-top: 170px;
+    margin-left: 230px;
+    border-radius: 15px;
+}
+
+.headings{
+    color:white;
+    font-size: 25px;
+    margin-left: 230px;
+    margin-top: 15px;
+}
+.sub-thumbnails{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 1000px;
+    padding-left: 230px;
+    padding-top: 20px;
+}
+.thumbnails{
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.game-name{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.game-price{
+    color: white;
+    font-size: 15px;
+}
+.game-type{
+    color: rgba(245, 245, 245, 0.6);
+    font-size: 10px;
+}
+.free-games{
+    background-color: rgba(81, 76, 76, 0.503);
+    height:350px;
+    width: 1000px;
+    margin-left: 230px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.free-games-logo{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view-more{
+    border: 1px solid grey;
+    background-color:rgba(81, 76, 76, 0.503) ;
+    margin-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 37px;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.free-g{
+    color: white;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.f-games{
+    height: 165px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.free-game-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.free-game{
+    position: relative;
+}
+.play-now1{
+    position: absolute;
+    background-color: rgb(32, 93, 226);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width:184px;
+    padding-left: 110px;
+    bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.play-now2{
+    position: absolute;
+    background-color: rgb(0, 1, 4);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width:184px;
+    padding-left: 110px;
+    bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.play-now3{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    width:184px;
+    padding-left: 110px;
+    bottom: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.fg-name{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    padding-top: 20px;
+}
+.fg-name-details{
+    color: grey;
+    position: absolute;
+    padding-top: 45px;
+    font-size: 14px;
+    width: 200px;
+}
